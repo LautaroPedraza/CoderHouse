@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(76, 0, 255);
+}
+
+header {
+    font-family: Verdana;
+    color: black;
+}
+
+.menu {
+    padding: 10px;
+}
+.menu li {
+    display: inline;
+}
+.menu li a {
+    font-family: Open Sans;
+    font-size: 15px;
+    text-decoration: blue;
+    padding: 5px;
+    background-color: beige;
+    color: blue;
+}
+.menu li a:hover {
+    background-color: black;
+}
+
+
+.contact-information { padding: 10px; padding-top: 0; margin-bottom: 30px; border-bottom: 1px solid #de423a; }
+
+.contact-information .column__title { font-family: 'Eurostyle', cursive; font-weight: 100; }
+
+.contact-information [class*="icon-"] { font-size: 1.3em; margin-right: 7px; position: relative; top: 5px; }
+
+.contact-information .social-icon { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; margin-bottom: 10px; }
+
+.contact-information .social-icon [class*="icon-"] { background: black; color: white; margin-left: 0; margin-right: 15px; }
+
+.formulario { padding: 10px; padding-top: 0; }
+
+.formulario__label, .formulario__input-txt, .formulario__textarea { display: block; width: 50%; }
+
+.formulario__input-txt { padding: 10px; margin-bottom: 10px; }
+
+.formulario__textarea { min-height: 50px; min-width: 50%; max-width: 60%; max-height: 100px; }
+
+.formulario__btn { border: none; cursor: pointer; font-size: 1em; }
+
+.main-footer { background: #222; color: white; padding: 10px; padding-top: 20px; padding-bottom: 20px; font-size: .8em; }
+
+.copy { text-align: center; margin: auto; margin-top: 15px; }
+
+.main-footer [class*="icon-"] { color: white; text-decoration: none; }
+
+.main-footer [class*="icon-"]:before { position: relative; top: 3px; right: 5px; }
+
+
+
+.our-team { text-align: center; margin-bottom: 20px; }
+
+.our-team .container__flex { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+
+.our-team__title { font-family: 'Pacifico', cursive; color: #DE423A; font-weight: bold; font-size: 1.8em; margin-bottom: 10px; }
+
+.our-team__img { width: 200px; height: 200px; -o-object-fit: cover; object-fit: cover; border-radius: 50%; margin: auto; margin-bottom: 20px; }
+
+.our-team__txt { font-weight: bold; padding: 10px; }
+
+/*---- ESTILOS RESPONSIVE ----*/
+@media screen and (min-width: 480px) { .our-team__img { width: 150px; height: 150px; } }
+
+@media screen and (min-width: 768px) { .our-team__img { width: 220px; height: 220px; } }
+
+@media screen and (min-width: 1024px) { .our-team__img { width: 310px; height: 310px; }
+  .our-team__title { font-size: 2.1em; } }
+
+@media screen and (min-width: 1600px) { .our-team__img { width: 420px; height: 420px; } }

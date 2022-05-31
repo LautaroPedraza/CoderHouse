@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+header {
+    font-family: Verdana;
+    color: black;
+}
+
+.menu {
+    padding: 10px;
+}
+.menu li {
+    display: inline;
+}
+.menu li a {
+    font-family: Open Sans;
+    font-size: 15px;
+    text-decoration: blue;
+    padding: 5px;
+    background-color: beige;
+    color: blue;
+}
+.menu li a:hover {
+    background-color: black;
+}
+
+
